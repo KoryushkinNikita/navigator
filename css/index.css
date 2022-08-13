@@ -1,0 +1,118 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (min-width: 500px){
+    .map{
+        float: right;
+        width: 40vw;
+        height: 70vh;
+        background-color: beige;
+        margin-right: 5vw;
+        margin-top: 15vh;
+    }
+    
+    .leftSide{
+        float: left;
+        margin-top: 10vh;
+        margin-left: 20vw;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .map{
+        width: 80vw;
+        height: 70vh;
+        background-color: beige;
+        margin-right: 5vw;
+        margin-top: 15vh;
+    }
+    
+    .leftSide{
+        margin-left:37vw;
+        margin-top: 10vh;
+    }
+}
+
+.suggest{
+    width: 25vw;
+    height: 5vh;
+    border-radius: 2vh;
+    border: none;
+    font-size: 1.5vh;
+    padding: 0.5vh;
+    color: black;
+    text-align: center;
+    background: #EFEFEF;
+}
+
+.inputPlace{
+    width: 30vw;
+    height: 15vh;
+}
+
+.label{
+    position: relative;
+    float: left;
+    color: black;
+    font-size: 2vw;
+    margin-top: 5vh;
+    margin-bottom: 3.5vh;
+    float: left;
+}
+
+.loop{
+    width: 2vw;
+    height: 3vh;
+}
+
+.searchInput{
+    width: 30vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.placesList{
+    padding: 2vw;
+    position: absolute;
+    color: black;
+    width: 30vw;
+    height: 60vh;
+    list-style: none;
+    margin-top: 10vh;
+    overflow-y: auto;
+}
+
+
+
+.cross{
+    position: absolute;
+    width: 2vw;
+    height: 3vh;
+    margin-top: 1vh;
+    
+}
+
+.selected{
+    opacity: 0.6;
+}
+
+.listItem{
+    margin-top: 2vh;
+    line-height: 5vh;
+    vertical-align: middle;
+    margin-left: 0;
+}
+
+.spanText{
+    float: left;
+    width: 20vw;
+    height: 5vh;
+    text-align: center;
+    overflow-y: auto;
+}

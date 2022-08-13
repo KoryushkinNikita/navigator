@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Navigator</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="map" id="map"></div>
+    <div class="leftSide">
+      <div class="inputPlace">
+        <label for="referencePoint" class="label">Введите точку маршрута:</label>
+        <div class="searchInput">
+          <img src="img/loopa.svg" class="loop" alt="loop">
+          <input type="text" class="suggest" id="referencePoint"><br>
+        </div>
+      </div>
+     
+      <label for="placesList" class="label">Точки:</label>
+      <ul id="placesList" class="placesList" id="placesList"></ul>
+    </div>
+
+    
+    
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=de134ed3-9320-480c-8ec6-cd5f6abc1371&lang=ru_RU" 
+    type="text/javascript"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
