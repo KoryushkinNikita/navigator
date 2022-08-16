@@ -92,7 +92,7 @@ ymaps.ready(
 
                 }
 
-                if (Math.abs(clickCoord[0] - coordinates[0]) < 0.0005 && Math.abs(clickCoord[1] - coordinates[1]) < 0.0005) 
+                if (Math.abs(clickCoord[0] - coordinates[0]) < 0.01 && Math.abs(clickCoord[1] - coordinates[1]) < 0.01) 
 
                     return [content , coordinates]
 
